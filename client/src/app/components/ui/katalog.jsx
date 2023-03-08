@@ -16,8 +16,8 @@ const Katalog = () => {
                                 config.imgSource +
                                 "katalog/157996403273390832_289279.jpg"
                             }
-                            className=" text-warning text-center me-2 mb-2"
-                            style={{ width: "450px", height: "300px" }}
+                            className=" text-warning text-center me-1 mb-2"
+                            style={{ width: "403px", height: "260px" }}
                         />
                         <div
                             style={{
@@ -25,7 +25,7 @@ const Katalog = () => {
                                 bottom: "25px",
                                 left: "160px",
                                 color: "white",
-                                fontSize: "30px"
+                                fontSize: "25px"
                             }}
                         >
                             Спальни
@@ -39,8 +39,8 @@ const Katalog = () => {
                                 config.imgSource +
                                 "katalog/disayn-spalni-v-art-deko-stile-3638-40.jpg"
                             }
-                            className="text-warning text-center me-2 mb-2"
-                            style={{ width: "450px", height: "300px" }}
+                            className="text-warning text-center me-1 mb-2"
+                            style={{ width: "403px", height: "260px" }}
                         />
                         <div
                             style={{
@@ -48,7 +48,7 @@ const Katalog = () => {
                                 bottom: "25px",
                                 left: "145px",
                                 color: "white",
-                                fontSize: "30px"
+                                fontSize: "25px"
                             }}
                         >
                             Гостиные
@@ -62,8 +62,8 @@ const Katalog = () => {
                                 config.imgSource +
                                 "katalog/dizayn-interyera-v-3-komnatnoi-kvartire-144-kv-m-foto-23-3719.jpg"
                             }
-                            className="text-warning text-center me-2 mb-2"
-                            style={{ width: "450px", height: "300px" }}
+                            className="text-warning text-center me-1 mb-2"
+                            style={{ width: "403px", height: "260px" }}
                         />
                         <div
                             style={{
@@ -71,7 +71,7 @@ const Katalog = () => {
                                 bottom: "25px",
                                 left: "120px",
                                 color: "white",
-                                fontSize: "30px"
+                                fontSize: "25px"
                             }}
                         >
                             Мягкая Мебель

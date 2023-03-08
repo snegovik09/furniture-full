@@ -24,7 +24,7 @@ const NavMenu = () => {
                     style={{
                         textDecoration: "none",
                         color: "inherit",
-                        fontSize: "22px",
+                        fontSize: "20px",
                         fontStyle: "italic"
                     }}
                 >

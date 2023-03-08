@@ -20,7 +20,10 @@ const Breadcrumb = ({ element }) => {
             return (
                 <li className="breadcrumb-item">
                     <Link
-                        style={{ color: "black", textDecoration: "none" }}
+                        style={{
+                            color: "black",
+                            textDecoration: "none"
+                        }}
                         to={"/katalog"}
                     >
                         Каталог
@@ -57,7 +60,12 @@ const Breadcrumb = ({ element }) => {
     };
     return (
         <nav aria-label="breadcrumb">
-            <ol className="breadcrumb">
+            <ol
+                className="breadcrumb"
+                style={{
+                    fontSize: "14px"
+                }}
+            >
                 <li className="breadcrumb-item active" aria-current="page">
                     {<Link to={`/`}>Главная страница</Link>}
                 </li>

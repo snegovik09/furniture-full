@@ -19,7 +19,9 @@ const Title = () => {
                     className="d-flex align-items-center justify-content-between mb-5"
                     style={{ paddingTop: "5px" }}
                 >
-                    <div className="fst-italic h5 m-0">8-999-888-77-66</div>
+                    <div className="fst-italic h5 m-0 pb-2">
+                        8-999-888-77-66
+                    </div>
                     <Link
                         to="/katalog"
                         style={{
@@ -68,8 +70,7 @@ const Title = () => {
                             to="/profile"
                             style={{
                                 color: "black",
-                                fontSize: "18px",
-                                paddingBottom: "8px"
+                                fontSize: "18px"
                             }}
                         >
                             {currentUser.name}
@@ -79,8 +80,7 @@ const Title = () => {
                             aria-current="page"
                             to="/login"
                             style={{
-                                textDecoration: "none",
-                                paddingBottom: "8px"
+                                textDecoration: "none"
                             }}
                         >
                             Login
@@ -103,7 +103,7 @@ const Title = () => {
                             color: "inherit",
                             position: "relative",
                             zIndex: "1",
-                            left: "-10px",
+                            left: "-20px",
                             top: "5px"
                         }}
                         className="h1"

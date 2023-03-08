@@ -16,6 +16,9 @@ const Links = () => {
                 <button
                     type="button"
                     className="btn btn-outline-info d-flex w-100"
+                    style={{
+                        fontSize: "16px"
+                    }}
                 >
                     {rusArrCatalog[i]}
                 </button>
