@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { getCurrentUserData, getIsLoggedIn } from "../../store/users";
 import { useBasket } from "../../hooks/useBasket";
+import config from "../../config.json";
 
 const Title = () => {
     const currentUser = useSelector(getCurrentUserData());
@@ -108,10 +109,7 @@ const Title = () => {
                         className="h1"
                     >
                         <img
-                            src={
-                                process.env.REACT_APP_API_URL +
-                                "basket/icons8.png"
-                            }
+                            src={config.apiEndpoint + "basket/icons8.png"}
                             alt="basket"
                         />
                         <span

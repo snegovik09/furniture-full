@@ -1,9 +1,10 @@
 import React from "react";
+import config from "../../config.json";
 
 const MainImages = () => {
     return (
         <img
-            src={process.env.REACT_APP_API_URL + "bg/mnogo_mebeli_fon.jfif"}
+            src={config.apiEndpoint + "bg/mnogo_mebeli_fon.jfif"}
             alt="logo"
             height="450px"
         />

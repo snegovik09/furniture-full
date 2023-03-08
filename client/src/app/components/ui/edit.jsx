@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import { Link, useHistory } from "react-router-dom";
 import { getFurniture } from "../../store/furniture";
 import { getCurrentUserData } from "../../store/users";
+import config from "../../config.json";
 
 const Edit = () => {
     const history = useHistory();
@@ -32,10 +33,7 @@ const Edit = () => {
                             onClick={handlerScrollUp}
                         >
                             <img
-                                src={
-                                    process.env.REACT_APP_API_URL +
-                                    item.product_image
-                                }
+                                src={config.apiEndpoint + item.product_image}
                                 style={{ width: "100%", height: "150px" }}
                             />
                             <div className="card-body d-flex flex-column align-items-center justify-content-center">

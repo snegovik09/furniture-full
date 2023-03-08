@@ -1,4 +1,5 @@
 import React from "react";
+import config from "../../config.json";
 const PopularFurn = () => {
     return (
         <div className="d-flex flex-column">
@@ -13,7 +14,7 @@ const PopularFurn = () => {
                     {
                         <img
                             src={
-                                process.env.REACT_APP_API_URL +
+                                config.apiEndpoint +
                                 "bg/x12a571a844cf18f36583332e372f6f44.jpg.pagespeed.ic.hxMJ7jWQ4Q.jpg"
                             }
                             height="300px"
@@ -25,7 +26,7 @@ const PopularFurn = () => {
                     {
                         <img
                             src={
-                                process.env.REACT_APP_API_URL +
+                                config.apiEndpoint +
                                 "bg/kuhnya_briz_2.0_m_mdf_beliy_soft_lavanda.jpg"
                             }
                             height="300px"
@@ -37,7 +38,7 @@ const PopularFurn = () => {
                 </div>
                 {
                     <img
-                        src={process.env.REACT_APP_API_URL + "bg/1-2.jpg"}
+                        src={config.apiEndpoint + "bg/1-2.jpg"}
                         height="608px"
                         width="800px"
                         alt="img3"

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useBasket } from "../../hooks/useBasket";
+import config from "../../config.json";
 const Counter = ({ item, index }) => {
     const { deleteArrayOfBasket } = useBasket();
     const [count, setCount] = useState(1);
@@ -21,10 +22,7 @@ const Counter = ({ item, index }) => {
                         to={`/katalog/${item.category_product}/${item.product_name}`}
                     >
                         <img
-                            src={
-                                process.env.REACT_APP_API_URL +
-                                item.product_image
-                            }
+                            src={config.apiEndpoint + item.product_image}
                             alt="logo"
                             height="100px"
                             width="180px"

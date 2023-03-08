@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Breadcrumb from "../common/breadCrumb";
+import config from "../../config.json";
 
 const Katalog = () => {
     return (
@@ -12,7 +13,7 @@ const Katalog = () => {
                     <div style={{ position: "relative" }}>
                         <img
                             src={
-                                process.env.REACT_APP_API_URL +
+                                config.apiEndpoint +
                                 "katalog/157996403273390832_289279.jpg"
                             }
                             className=" text-warning text-center me-2 mb-2"
@@ -35,7 +36,7 @@ const Katalog = () => {
                     <Link to={`/katalog/livingRooms`}>
                         <img
                             src={
-                                process.env.REACT_APP_API_URL +
+                                config.apiEndpoint +
                                 "katalog/disayn-spalni-v-art-deko-stile-3638-40.jpg"
                             }
                             className="text-warning text-center me-2 mb-2"
@@ -58,7 +59,7 @@ const Katalog = () => {
                     <Link to={`/katalog/cushionedFurniture`}>
                         <img
                             src={
-                                process.env.REACT_APP_API_URL +
+                                config.apiEndpoint +
                                 "katalog/dizayn-interyera-v-3-komnatnoi-kvartire-144-kv-m-foto-23-3719.jpg"
                             }
                             className="text-warning text-center me-2 mb-2"

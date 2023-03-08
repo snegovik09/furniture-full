@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { getFurniture } from "../../store/furniture";
+import config from "../../config.json";
 
 const CategoryUnderItem = () => {
     const furniture = useSelector(getFurniture());
@@ -30,10 +31,7 @@ const CategoryUnderItem = () => {
                             onClick={handlerScrollUp}
                         >
                             <img
-                                src={
-                                    process.env.REACT_APP_API_URL +
-                                    item.product_image
-                                }
+                                src={config.apiEndpoint + item.product_image}
                                 style={{ width: "100%", height: "230px" }}
                             />
                             <div className="card-body">

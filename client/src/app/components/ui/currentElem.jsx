@@ -13,6 +13,7 @@ import Comments from "./comments";
 import DescriptionCurrElem from "./descriptionCurrElem";
 import Breadcrumb from "../common/breadCrumb";
 import { useBasket } from "../../hooks/useBasket";
+import config from "../../config.json";
 
 const CurrentElem = () => {
     const dispatch = useDispatch();
@@ -63,7 +64,7 @@ const CurrentElem = () => {
                     {
                         <img
                             src={
-                                process.env.REACT_APP_API_URL +
+                                config.apiEndpoint +
                                 furnitureByName.product_image
                             }
                             style={{

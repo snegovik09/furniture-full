@@ -7,6 +7,7 @@ import { arrCatalog, rusArrCatalog } from "./links";
 import Pagination from "../common/pagination";
 import Breadcrumb from "../common/breadCrumb";
 import { useBasket } from "../../hooks/useBasket";
+import config from "../../config.json";
 
 const CurrentCategory = ({ value }) => {
     const user = useSelector(getCurrentUserData());
@@ -70,7 +71,7 @@ const CurrentCategory = ({ value }) => {
                                 >
                                     <img
                                         src={
-                                            process.env.REACT_APP_API_URL +
+                                            config.apiEndpoint +
                                             item.product_image
                                         }
                                         style={{

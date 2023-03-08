@@ -1,4 +1,5 @@
 import React from "react";
+import config from "../../config.json";
 
 const DiscountFurn = () => {
     return (
@@ -8,18 +9,18 @@ const DiscountFurn = () => {
             </div>
             <div className="d-flex justify-content-around my-3">
                 <img
-                    src={process.env.REACT_APP_API_URL + "bg/divan.jpg"}
+                    src={config.apiEndpoint + "bg/divan.jpg"}
                     alt="logo"
                     width="250px"
                 />
                 <img
-                    src={process.env.REACT_APP_API_URL + "bg/Benedikt-_7_.jpg"}
+                    src={config.apiEndpoint + "bg/Benedikt-_7_.jpg"}
                     alt="logo"
                     width="250px"
                 />
                 <img
                     src={
-                        process.env.REACT_APP_API_URL +
+                        config.apiEndpoint +
                         "bg/xe7a3d21333c240472bfa7b58cf5893b3.jpg,q1639019470.pagespeed.ic.r8wxpHt9Mq.jpg"
                     }
                     alt="logo"
@@ -27,16 +28,14 @@ const DiscountFurn = () => {
                 />
                 <img
                     src={
-                        process.env.REACT_APP_API_URL +
+                        config.apiEndpoint +
                         "bg/shkaf-kupe-shkp-1-dub-venge-yasen-ankor-svetlyj-prosto-horoshaya-sv-mebel.jpg"
                     }
                     alt="logo"
                     width="250px"
                 />
                 <img
-                    src={
-                        process.env.REACT_APP_API_URL + "bg/756485832733198.jpg"
-                    }
+                    src={config.apiEndpoint + "bg/756485832733198.jpg"}
                     alt="logo"
                     width="250px"
                 />
