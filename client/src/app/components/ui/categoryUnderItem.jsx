@@ -31,7 +31,7 @@ const CategoryUnderItem = () => {
                             onClick={handlerScrollUp}
                         >
                             <img
-                                src={config.apiEndpoint + item.product_image}
+                                src={config.imgSource + item.product_image}
                                 style={{ width: "100%", height: "230px" }}
                             />
                             <div className="card-body">

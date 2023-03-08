@@ -109,7 +109,7 @@ const Title = () => {
                         className="h1"
                     >
                         <img
-                            src={config.apiEndpoint + "basket/icons8.png"}
+                            src={config.imgSource + "basket/icons8.png"}
                             alt="basket"
                         />
                         <span

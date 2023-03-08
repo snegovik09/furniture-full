@@ -71,7 +71,7 @@ const CurrentCategory = ({ value }) => {
                                 >
                                     <img
                                         src={
-                                            config.apiEndpoint +
+                                            config.imgSource +
                                             item.product_image
                                         }
                                         style={{

@@ -22,7 +22,7 @@ const Counter = ({ item, index }) => {
                         to={`/katalog/${item.category_product}/${item.product_name}`}
                     >
                         <img
-                            src={config.apiEndpoint + item.product_image}
+                            src={config.imgSource + item.product_image}
                             alt="logo"
                             height="100px"
                             width="180px"

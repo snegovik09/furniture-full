@@ -14,7 +14,7 @@ const PopularFurn = () => {
                     {
                         <img
                             src={
-                                config.apiEndpoint +
+                                config.imgSource +
                                 "bg/x12a571a844cf18f36583332e372f6f44.jpg.pagespeed.ic.hxMJ7jWQ4Q.jpg"
                             }
                             height="300px"
@@ -26,7 +26,7 @@ const PopularFurn = () => {
                     {
                         <img
                             src={
-                                config.apiEndpoint +
+                                config.imgSource +
                                 "bg/kuhnya_briz_2.0_m_mdf_beliy_soft_lavanda.jpg"
                             }
                             height="300px"
@@ -38,7 +38,7 @@ const PopularFurn = () => {
                 </div>
                 {
                     <img
-                        src={config.apiEndpoint + "bg/1-2.jpg"}
+                        src={config.imgSource + "bg/1-2.jpg"}
                         height="608px"
                         width="800px"
                         alt="img3"

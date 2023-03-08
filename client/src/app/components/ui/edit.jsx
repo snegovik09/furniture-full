@@ -33,7 +33,7 @@ const Edit = () => {
                             onClick={handlerScrollUp}
                         >
                             <img
-                                src={config.apiEndpoint + item.product_image}
+                                src={config.imgSource + item.product_image}
                                 style={{ width: "100%", height: "150px" }}
                             />
                             <div className="card-body d-flex flex-column align-items-center justify-content-center">

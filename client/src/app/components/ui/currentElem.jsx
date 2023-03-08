@@ -64,8 +64,7 @@ const CurrentElem = () => {
                     {
                         <img
                             src={
-                                config.apiEndpoint +
-                                furnitureByName.product_image
+                                config.imgSource + furnitureByName.product_image
                             }
                             style={{
                                 width: "600px",

@@ -1,4 +1,5 @@
 {
     "apiEndpoint": "http://77.223.96.8/api/",
+    "imgSource": "http://77.223.96.8/",
     "isFireBase": false
 }

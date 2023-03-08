@@ -13,7 +13,7 @@ const Katalog = () => {
                     <div style={{ position: "relative" }}>
                         <img
                             src={
-                                config.apiEndpoint +
+                                config.imgSource +
                                 "katalog/157996403273390832_289279.jpg"
                             }
                             className=" text-warning text-center me-2 mb-2"
@@ -36,7 +36,7 @@ const Katalog = () => {
                     <Link to={`/katalog/livingRooms`}>
                         <img
                             src={
-                                config.apiEndpoint +
+                                config.imgSource +
                                 "katalog/disayn-spalni-v-art-deko-stile-3638-40.jpg"
                             }
                             className="text-warning text-center me-2 mb-2"
@@ -59,7 +59,7 @@ const Katalog = () => {
                     <Link to={`/katalog/cushionedFurniture`}>
                         <img
                             src={
-                                config.apiEndpoint +
+                                config.imgSource +
                                 "katalog/dizayn-interyera-v-3-komnatnoi-kvartire-144-kv-m-foto-23-3719.jpg"
                             }
                             className="text-warning text-center me-2 mb-2"
