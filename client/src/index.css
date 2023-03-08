@@ -1,0 +1,24 @@
+body {
+    font-family: Roboto, "Roboto";
+    background-color:rgb(247, 247, 247)
+}
+
+.btn-outline-info {
+    --bs-btn-font-weight: 500;
+    --bs-btn-color: black;
+    --bs-btn-border-color: black;
+    --bs-btn-bg: white;
+
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: rgb(40, 84, 40);
+    --bs-btn-hover-border-color: rgb(40, 84, 40);
+
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: rgb(40, 84, 40);
+    --bs-btn-active-border-color: rgb(40, 84, 40);
+}
+
+.bgTitle {
+    background-color: rgb(231, 230, 230);
+    height: 45px;
+}
